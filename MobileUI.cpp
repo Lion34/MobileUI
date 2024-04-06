@@ -117,6 +117,11 @@ void MobileUI::refreshUI()
     MobileUIPrivate::setTheme_navbar(MobileUIPrivate::navbarTheme);
 }
 
+void MobileUI::refreshSafeArea()
+{
+    emit safeAreaUpdated();
+}
+
 /* ************************************************************************** */
 
 int MobileUI::getStatusbarHeight()

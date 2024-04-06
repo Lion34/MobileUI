@@ -98,6 +98,9 @@ public:
     //! Refresh UI statusbar/navigationbar themes/colors
     Q_INVOKABLE static void refreshUI();
 
+    //! Refresh SafeArea preperties
+    Q_INVOKABLE void refreshSafeArea();
+
     // Screen safe areas ///////////////////////////////////////////////////////
 
     static int getStatusbarHeight();
